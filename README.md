@@ -2,6 +2,8 @@
 
 Docker image for [AvNav](https://www.wellenvogel.net/software/avnav/docs/), an open-source marine navigation software for Raspberry Pi.
 
+> **Note:** As of 2025-10-28, the HaLOS Runtipi Marine App Store now uses the [free-x/avnav-docker](https://github.com/free-x/avnav-docker) image (`xfreex/avnav-daily`) instead of this custom build. The free-x image includes additional plugins (mapproxy, o-charts) and is actively maintained by the community. This repository is kept for reference and alternative deployment scenarios.
+
 ## Overview
 
 AvNav is a navigation software that turns your Raspberry Pi into a powerful marine navigation computer. This Docker image packages AvNav for easy deployment and integration with other marine software like Signal K.
